@@ -14,7 +14,6 @@ body{
     max-width: 71%;
     margin: 0 auto;
     overflow: auto;
-    padding: 0 40px;
   }
   
 .nav{
@@ -69,7 +68,7 @@ a{
 
 .links a{
     padding: 0rem 1rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 
 }
 
@@ -96,12 +95,12 @@ a{
 
 .club-info h1{
     word-spacing: -5px;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: 700;
 }
 
 .club-info p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .club-img img{
