@@ -64,11 +64,13 @@ a{
 }
 
 .logo img{
-    width: 60%;
+    width: 40%;
 }
 
 .links a{
-    padding: 0rem 1rem;;
+    padding: 0rem 1rem;
+    font-size: 0.8rem;
+
 }
 
 .links a:hover{
@@ -84,7 +86,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .club-info{
@@ -94,17 +96,21 @@ a{
 
 .club-info h1{
     word-spacing: -5px;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 .club-info p{
-    font-size: 1.1rem;
+    font-size: 0.8rem;
+}
+
+.club-img img{
+    width: 95%;
 }
 
 .btn{
     background-color: rgb(6, 6, 42);
-    padding: 0.8rem 1.2rem;
+    padding: 0.6rem 1.0rem;
     margin: 1rem 0;
     outline: none;
     border: none;
@@ -114,7 +120,7 @@ a{
 .btn a{
     font-weight: 400;
     color:white;
-    font-size: 1.0rem;
+    font-size: 0.9rem;
 }
 
 .bg{
@@ -131,7 +137,7 @@ a{
 }
 
 .features-main h1{
-    font-size: 3rem;
+    font-size: 2.4rem;
     padding: 0rem 0rem 2rem;
 }
 
@@ -152,7 +158,7 @@ a{
 }
 
 .tab p{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 
@@ -168,7 +174,7 @@ a{
 }
 
 .feat-logo h1{
-    font-size: 3.8rem;
+    font-size: 3.0rem;
     padding: 8rem 0 4rem;
 }
 
@@ -191,7 +197,7 @@ a{
 }
 
 .feat-info{
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-weight: 500;
 }
 
@@ -202,7 +208,7 @@ a{
 
 .team-logo h1{
     margin-top: 2rem;
-    font-size: 3.4rem;
+    font-size: 3.0rem;
     padding: 3rem 0;
 }
 
@@ -223,11 +229,15 @@ a{
 }
 
 .head-img{
-    width: 300%;
+    width: 380%;
 }
 
 .head-name h1{
-    font-size: 2.2rem;
+    font-size: 2.0rem;
+}
+
+.head-name p{
+    font-size: 0.8rem;
 }
 
 .head-name h3{
@@ -246,8 +256,8 @@ a{
 }
 
 .team-info{
-    margin-bottom: 4rem;
-    width: 18rem;
+    margin-bottom: 3rem;
+    width: 14rem;
     display: flex;
     flex-flow: row wrap;
     flex-direction: column;
@@ -267,11 +277,11 @@ a{
 }
 
 .mem-details h1{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 .mem-details p{
-    font-size: 1.1rem;
+    font-size: 0.7rem;
 }
 
 .mem-img img{
@@ -315,7 +325,7 @@ a{
 .faq-heading {
     position: relative;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     margin:0;
 }
@@ -326,6 +336,10 @@ a{
 
 .faq-text {
     display: none;
+}
+
+.faq-text:active{
+    font-size: 10px;
 }
 
 
@@ -357,6 +371,6 @@ a{
 }
 
 .faq-head h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding: 3rem 0;
 }
