@@ -63,12 +63,12 @@ a{
 }
 
 .logo img{
-    width: 40%;
+    width: 45%;
 }
 
 .links a{
     padding: 0rem 1rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 
 }
 
@@ -208,7 +208,7 @@ a{
 .team-logo h1{
     margin-top: 2rem;
     font-size: 3.0rem;
-    padding: 3rem 0;
+    padding: 2rem 0 2rem;
 }
 
 .team-head{
@@ -228,7 +228,7 @@ a{
 }
 
 .head-img{
-    width: 380%;
+    min-width: 30%
 }
 
 .head-name h1{
@@ -236,19 +236,21 @@ a{
 }
 
 .head-name p{
-    font-size: 0.8rem;
+    font-size: 0.85rem;
+    text-align: justify;
 }
 
 .head-name h3{
     color: rgba(14, 14, 14, 0.726);
     margin-top: -0.7rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 
 .team-list{
     display: flex;
-    flex-direction: r   ow;
-    gap: 2rem;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
     flex-flow: row wrap;
     position: relative;
     width: 100%;
@@ -268,7 +270,7 @@ a{
 .team-details{
     display: flex;
     flex-direction: column;
-    gap: 8rem;
+    gap: 6rem;
 }
 
 .mem-details{
